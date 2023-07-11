@@ -27,5 +27,5 @@ for post in posts:
     if post.url.endswith((".jpg", ".jpeg", ".png")):
         image_urls.append(post.url)
 
-# Indirilen görselleri Instagram'a yükleme
+# Indirilen görselleri linkleme
 print(image_urls)
